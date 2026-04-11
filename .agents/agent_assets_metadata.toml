@@ -1,0 +1,20 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "64lLMucukQeCC-mZk5M7V"
+uri = "file://artifacts/greenwatch/assets/images/icon.png"
+type = "image"
+title = "greenwatch app icon"
+
+[[generated]]
+id = "VXXvn51p00sd5cPKw8Fs1"
+uri = "file://artifacts/greenwatch/assets/images/hero_farm.png"
+type = "image"
+title = "farm hero banner"
+
+[[generated]]
+id = "gKmHOzKLkAJX_ZoWysJ6r"
+uri = "file://artifacts/greenwatch/assets/images/marketplace_banner.png"
+type = "image"
+title = "marketplace produce banner"

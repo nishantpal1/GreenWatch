@@ -1,0 +1,27 @@
+kind = "mobile"
+previewPath = "/"
+title = "GreenWatch"
+version = "1.0.0"
+id = "artifacts/greenwatch"
+router = "expo-domain"
+
+[[integratedSkills]]
+name = "expo"
+version = "1.0.0"
+
+[[services]]
+ensurePreviewReachable = "/status"
+name = "expo"
+paths = [ "/" ]
+localPort = 18536
+
+[services.development]
+run = "pnpm --filter @workspace/greenwatch run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/greenwatch", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/greenwatch", "run", "serve" ]
+
+[services.env]
+PORT = "18536"
+BASE_PATH = "/"
